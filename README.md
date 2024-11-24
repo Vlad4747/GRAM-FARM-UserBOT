@@ -14,8 +14,6 @@ apt install python-pip
 git clone https://github.com/Vlad4747/GRAM-FARM-UserBOT
 cd GRAM-FARM-UserBOT
 pip3 install pyrogram
-pip3 install decouple
-pip3 install pickle
 python main.py
 ```
 ### Termux Запуск если юзербот уже устоновлен
