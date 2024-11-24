@@ -1,11 +1,9 @@
 
-from pyrogram import Client, filters,types
+from pyrogram import Client, filters
 
-from decouple import config
 from pyrogram.types import Message
-import pickle
+
 import time
-import logging
 while True:
     try:
         yellow = '\033[93m'
@@ -23,13 +21,11 @@ while True:
         phone = input(cyan+"Напишите номер телефона (+71234567890): ")
         print(clear)
 
-        logger = logging.getLogger('my-logger')
-        logger.propagate = False
         # now if you use logger it will not log to console.
 
         bot = Client(name=phone,
-                     api_id=config('API_ID'),
-                     api_hash=config('API_HASH'),
+                     api_id=24976468,
+                     api_hash='6e498035dcf4d32e270ff3f90cf61c58',
                      phone_number=phone)
         s1 = True
         s2 = True
