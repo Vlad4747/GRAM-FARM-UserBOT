@@ -32,7 +32,7 @@ menu = f'''
         {cyan}| {lgreen}1 просмор постов             {cyan}|
         {cyan}| {lgreen}2 Активация чеков из каналов {cyan}|
         {cyan}| {lgreen}  (только ссылки)            {cyan}|
-        {cyan}| {lgreen}3 Подписка на каналы         {cyan}|
+        {cyan}| {lgreen}                             {cyan}|
         {cyan}| {lgreen}                             {cyan}|
         {cyan}================================
 '''
