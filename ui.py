@@ -6,6 +6,7 @@ clear = '\033[0m'
 bold = '\033[01m'
 cyan = '\033[96m'
 red = "\033[91m"
+purple = "\033[35m"
 
 banner = f'''{lgreen}
 ===================================================
@@ -32,7 +33,7 @@ menu = f'''
         {cyan}| {lgreen}1 просмор постов             {cyan}|
         {cyan}| {lgreen}2 Активация чеков из каналов {cyan}|
         {cyan}| {lgreen}  (только ссылки)            {cyan}|
-        {cyan}| {lgreen}                             {cyan}|
+        {cyan}| {lgreen}3 Удалить сессию             {cyan}|
         {cyan}| {lgreen}                             {cyan}|
         {cyan}================================
 '''
